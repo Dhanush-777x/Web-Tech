@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Exo+2:wght@900&family=Montserrat:wght@400;500;900&family=Poppins&display=swap');
+
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.bg{
+    background-color: #171717;
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+}
+.login-card{
+    background-color: #EDEDED;
+    height: 68%;
+    width: 35%;
+    border-radius: 12px;
+    margin-top: 170px;
+    text-align: center;
+}
+.heading{
+    color: #DA0037;
+    font-weight: 800;
+    padding-top: 40px;
+    margin-bottom: 8%;
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+    width: 60%;
+    margin-top: 2%;
+}
+.login-btn{
+    width: 60%;
+    margin-top: 20px;
+    padding: 10px;
+}
+.home-icon{
+    position: absolute;
+    left: 47.5%;
+    top: 60px;
+}
+.form-group p{
+    color: #DA0037;
+    margin-top: 5px;
+    visibility: hidden;
+}
+.form-group.error input{
+    border-color: #DA0037;
+}
+.form-group.success input{
+    border-color: #6cd864;
+}
+.form-group.error p{
+    visibility: visible;
+}
+
+.form-group.success p{
+    visibility: hidden;
+}
+.icon1{
+    height: 400px;
+    width: 500px;
+}
+
+.success-msg{
+    color: rgb(33, 148, 33);
+    margin-top: 10px;
+    font-weight: bold;
+    visibility: hidden;
+}
+
+.form-success.success p{
+    visibility: visible;
+}
+
+.nickname-style{
+    color: #DA0037;
+    position: absolute;
+    left: 90px;
+    top: 400px;
+    font-size: 50px;
+}
+.welcome-txt{
+    color: #DA0037;
+    position: absolute;
+    left: 1450px;
+    top: 400px;
+    font-size: 50px;
+}

@@ -1,0 +1,53 @@
+.bg{
+    background-image: url('https://e0.pxfuel.com/wallpapers/534/655/desktop-wallpaper-ultra-matte-black-background-warnerwave-xyz.jpg');
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+.heading{
+    font-weight: 600;
+    font-size: 80px;
+    color: #BEADFA;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    transition: 0.2s;
+}
+.heading:hover{
+    transform: scale(1.2);
+}
+.icon1{
+    height: 200px;
+    width: 200px;
+}
+.welcome-txt{
+    margin-top: 180px;
+    margin-bottom: 70px;
+    color: #BEADFA;
+}
+.btn1{
+    background-color: #BEADFA;
+    color: black;
+    border: 0px;
+    padding: 15px;
+}
+.btn1:hover{
+    background-color: azure;
+}
+.clr1{
+    transition: 0.2s;
+}
+.clr1:hover{
+    color: #FF9933;
+}
+.clr2{
+    transition: 0.2s;
+}
+.clr2:hover{
+    color: white;
+}
+.clr3{
+    transition: 0.2s;
+}
+.clr3:hover{
+    color: #046A38;
+}

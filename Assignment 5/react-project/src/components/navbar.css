@@ -1,0 +1,49 @@
+.pages{
+    color: white;
+    transition: all ease-in 300ms;
+    text-decoration: none;
+}
+.pages:hover{
+    color: #FE6A16;
+    transform: scale(1.1);
+}
+
+.main-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+    padding: 1.08%;
+    animation: slidefromtop ease 2s;
+}
+.logo{
+    height: 70px;
+    width: 70px;
+    margin-right: 0px;
+    margin-top: 78%;
+}
+
+.nav-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    
+}
+@keyframes slidefromtop {
+    0% {
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+
+.logo-head{
+    color: white;
+    margin-top: 95%;
+    margin-left: 27%;
+}
+.nav1{
+    margin-left: 50%;
+}

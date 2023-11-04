@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Exo+2:wght@900&family=Montserrat:wght@400;500;900&family=Poppins&family=Tilt+Prism&display=swap');
+
+a{
+    text-decoration: none;
+}
+/* Styles for tablets (768px - 1023px) */
+@media (min-width: 400px) and (max-width: 1023px) {
+    .innerwidth {
+        max-width: 768px;
+        margin: auto;
+        text-align: center;
+    }
+    .heading1{
+        font-size: 45px;
+        margin-top: 10%;
+    }
+    .motto{
+        font-size: 20px;
+    }
+    .home-image{
+        position: absolute;
+        right: 40%;
+        top: 62.4%;
+        height: 280px;
+        width: 230px;
+    }
+
+}
+
+
+@media (min-width: 1024px) {
+
+    .innerwidth {
+        max-width: 1576px;
+        margin: auto;
+    }
+}
+
+.button{
+    background-color: #FE6A16;
+    padding: 10px 16px;
+    border-radius: 5px;
+    border: none;
+    transition: all ease-in 300ms;
+    font-weight: bold;
+}
+.button:hover{
+    transform: scale(1.1);
+}
+.innerwidth{
+    width: 100%;
+}
+.first{
+    padding: 30px;
+    background-image: linear-gradient(to bottom, #000000, #431a21, #842b2f, #c5442e, #fe6a16);
+    height: 100vh;
+    background-size: cover;
+}
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+body{
+    animation: fadein ease 1s;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+  
+.pos{
+    margin-top: 15%;
+    height: 65px;
+    width: 260px;
+    background-color: transparent;
+    transition: all ease-in 300ms;
+    padding: 2%;
+    border-radius: 5px;
+    border: 2px solid;
+    border-color: black;
+    font-weight: bold;
+    color: black;
+
+}
+
+.pos:hover{
+    transform: scale(1.1);
+    color: #FE6A16;
+    background-color: #000000;
+}

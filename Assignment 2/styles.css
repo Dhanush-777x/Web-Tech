@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Exo+2:wght@900&family=Montserrat:wght@400;500;900&family=Poppins&display=swap');
+
+
+body{
+    background-color: #70BD99;
+    color: #1B6B93;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+}
+
+.profile{
+    border-radius: 200px;
+    margin-top: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.heading{
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: #164B60;
+}
+
+.left-div{
+    height: 750px;
+    width: 600px;
+    background-color: white;
+    border-radius: 12px;
+    margin: 120px 0px 120px 180px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: absolute;
+    z-index: 1;
+}
+
+.details-div{
+    padding: 50px;
+}
+
+.right-div{
+    height: 700px;
+    width: 1000px;
+    background-color: white;
+    padding: 60px;
+    overflow: scroll;
+    position: absolute;
+    margin: 150px 760px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+    border-radius: 12px;
+}
+.right-div::-webkit-scrollbar{
+    display: none;
+  }
+
+  i{
+    padding: 20px;
+  }
+
+  a{
+    color: #164B60;
+  }
+
+  a:hover{
+    color: #70BD99;
+  }
+
+  .headings{
+    font-weight: 800;
+    margin: 20px 0px;
+    color: #164B60;
+  }
+  .year{
+    margin-left: 90px;
+  }
+  .section{
+    padding: 20px;
+  }
+  .skills{
+    text-align: center;
+  }
+  .icons-sec{
+    margin: 30px;
+  }
+
+  .lang-div{
+    text-align: center;
+    color: #164B60;
+    font-weight: 700;
+    padding-top: 35px;
+    height: 150px;
+    width: 300px;
+    background-color: #70BD99;
+    margin: 10px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+  }
+  .contact-form{
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+    margin-top: 30px;
+    padding: 40px;
+    height: 400px;
+    width: 840px;
+
+  }
+  .textboxes{
+    margin: 40px 20px 40px 0px;
+  }
+  .submit-btn{
+    background-color: #70BD99;
+    margin-top: 20px;
+  }
+  .contact-btn{
+    background-color: #164B60;
+  }

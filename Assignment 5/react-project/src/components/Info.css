@@ -1,0 +1,48 @@
+.info-section{
+    background-color: black;
+    background-size: cover;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    height: 600px;
+    width: 450px;
+    background-color: transparent;
+    border: 2px solid;
+    border-color: #FE6A16;
+    margin-right: 100px;
+    margin-top: 8%;
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+    transition: all ease 0.3s;
+    z-index: 2;
+}
+.info-img{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    height: 260px;
+    width: 415px;
+    border-radius: 12px;
+}
+.info-desc{
+    margin-top: 20px;
+    padding: 10px;
+}
+.cards:hover{
+    /* background-color: #FE6A16;
+    color: black; */
+    transform: scale(1.1);
+}
+.button1{
+    height: 60px;
+    width: 300px;
+    border-radius: 12px;
+    margin-top: 3%;
+    background-color: #FE6A16;
+    color: white;
+}
+.button1:hover{
+    color: black;}

@@ -1,0 +1,10 @@
+.main-navbar{
+    background-color: #BEADFA;
+    padding: 10px;
+}
+.navbar {
+  padding: 0 ;
+   position: fixed;
+   width: 100%;
+   z-index: 1;
+}

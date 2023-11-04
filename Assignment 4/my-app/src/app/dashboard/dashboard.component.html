@@ -1,0 +1,13 @@
+<div class="bg">
+<input class="search-box form-control" type="text" placeholder="Seach Product" [(ngModel)]="searchtext">
+  <div class="items-div d-flex flex-row" *ngFor="let item of items | search : searchtext">
+    <div>
+      <img src="{{item.url}}" alt="" />
+    </div>
+    <div>
+      <h1>{{ item.name }}</h1>
+      <h4>{{ item.description }}</h4>
+      <h2>{{ item.price }}</h2>
+    </div>
+  </div>
+</div>

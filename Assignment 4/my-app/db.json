@@ -1,0 +1,47 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxwwWIseZyGkWACaj21VrpCNKrKZ2tzDAw7InS6b-Y_GzM_50a1DDsVH5nn578tsURtpY&usqp=CAU",
+      "name": "iQOO 9 5G ",
+      "description": "(Alpha, 8GB RAM, 128GB Storage) | Qualcomm Snapdragon 888+ | 120W FlashCharge",
+      "price": "₹32999"
+    },
+    {
+      "id": 2,
+      "url": "https://m.media-amazon.com/images/I/613uQS1MwBS.jpg",
+      "name": "Lenovo Legion 5 Pro",
+      "description":
+        "Intel Core i7 11th Gen 16 (40.64cm) 500nits WQXGA Gaming Laptop (32GB/1TB SSD/8GB RTX 3070/165Hz/Win11/Office/Blue Backlit/3Yr Warranty",
+      "price": "₹67999"
+    },
+    {
+      "id": 3,
+      "url": "https://m.media-amazon.com/images/I/71Tg5SOATBL.jpg",
+      "name": "Redragon GS520 Anvil RGB Desktop Speakers",
+      "description": "2.0 Channel PC Computer Stereo Speaker with 6 Colorful LED Modes, Enhanced Sound and Easy-Access Volume Control, USB Powered w/ 3.5mm Cable",
+      "price": "₹1299"
+    },
+    {
+      "id": 4,
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVFafj24R4ARAEmy8FKpdlc1hxnjNJ93sf4tjg0_NfS0-lX-Y2Qh1iMXVJAEGcvxam2DA&usqp=CAU",
+      "name": "Alexa Echo Dot 4",
+      "description": "(4th Gen, 2020 release)| Smart speaker with Alexa (White)",
+      "price": "₹2299"
+    },
+    {
+      "id": 5,
+      "url": "https://5.imimg.com/data5/SELLER/Default/2023/6/319118173/EC/CB/HG/110556392/comic-byte-firefly-keyboard.jpg",
+      "name": "Cosmic Byte Firefly CB GK-16",
+      "description": "Ten-Keyless Keyboard with Outemu Red Switch",
+      "price": "₹2099"
+    },
+    {
+      "id": 6,
+      "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/37bab4c2-9746-4ede-bc15-269bffcbaf33.__CR0,0,300,400_PT0_SX300_V1___.jpg",
+      "name": "Archer Tech Lab Recurve 300 ",
+      "description": "Wired Gaming Mouse,12000 DPI with 1000Hz Polling Rate 8 Buttons, Thumb Rest Support, 6 Mode RGB, Sunplus Sensor, 10 Mn+ Clicks HUYU Switches, Compatible with PC/Mac - Black",
+      "price": "₹1299"
+    }
+  ]
+}
